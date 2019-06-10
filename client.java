@@ -7,7 +7,7 @@ class FTPClient
 {
     publicstaticvoid main(String args[]) throws Exception
     {
-        Socket soc=new Socket("127.0.0.1",5217);
+        Socket soc=new Socket("169.254.47.207",5217);
         transferfileClient t=new transferfileClient(soc);
         t.displayMenu();
         
